@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>MUHAMMAD AIZUDDIN BIN ZULKIFLI</td>
+        <td>Photo</td>
+    </tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td> 12 February 2000</td>
+    </tr>
+    <tr>
+        <td>Religion</td>
+        <td>Islam</td>
+    </tr>
+    <tr>
+        <td>Race</td>
+        <td>Malay</td>
+    </tr>
+
+
+
+
+    <tr>
+        <td>Course and Registration</td>
+        <td>BIP UTHM</td>
+    </tr>
+    <tr>
+        <td>Programming Skills</td>
+        <td>C, Java, HTML</td>
+    </tr>
+    <tr>
+        <td>Personal Interest</td>
+        <td>Into analog things such as film camera and vinyl player</td>    
+    </tr>
+    <tr>
+        <td>Future plan in 2024</td>
+        <td>Jaga Solat</td>
+    </tr>
+
+</table>
