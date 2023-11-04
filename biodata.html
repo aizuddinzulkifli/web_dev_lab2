@@ -5,11 +5,11 @@
     h2 {
         text-align: center;
         padding: 20px;
+        color: #333;
     }
-    table, th, td {
+    table {
         border : 1px solid black;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     th,td {
         border: 1px solid black;
@@ -17,25 +17,47 @@
         text-align: left;
     }
 
+    .section {
+        background-color: #f5f5f5;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;  
+    }
+
+    .hobbies, .campus-life{
+        font-size: 18px;
+        color: #333;
+    }
+
+    .bullet {
+        margin-right: 10px;
+        color: #333;
+    }
+
     .column {
-        float: none;
+        display: inline-block;
         padding: 10px;
+        width: 30;
+        background-color: #f2f2f2;
+        margin: 10px;
+        border-radius: 10px;
     }
 
-    .colum.side {
-        width: 25%;
-    }
-    .column.middle {
-        width: 50px;
+    .column span {
+        display: block;
+        text-align: center;
     }
 
-    .column {
-    margin: 0 10px; /* Add spacing between hobby items */
-    display: inline-block; /* Display items inline */
-    flex-direction: row; /* Align items horizontally */
-    width: 33.33%;
-    padding: 15px;
-    }
+    #campus-life p {
+            font-size: 16px;
+            color: #555;
+        }
+        #campus-life h3 {
+            font-size: 24px;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
 
 </style>
 </head>
@@ -111,7 +133,7 @@
     </tr>
 
 </table>
-<div class="Hobbies"></div>
+<div class="section hobbies"></div>
     <h2>Hobbies</h2>
     <div class="column">
         <span>Collectin stamp</span>
@@ -122,10 +144,17 @@
       <div class="column">
         <span>Traveling</span>
       </div>
+</div>
 
-
-<div class="Campus Life">
+<div class="section campus-life">
     <h2>Campus Life</h2>
+
+    <div id="campus-life">
+        <h3>Campus Life</h3>
+        <p>UTHM Hebat</p>
+        <p>UTHM Memang Hebat.</p>
+      </div>
+</div>
 
 </body>
 </html>
