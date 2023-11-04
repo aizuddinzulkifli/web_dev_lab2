@@ -4,7 +4,6 @@
 <style>
     h2 {
         text-align: center;
-        background-color: antiquewhite;
         padding: 20px;
     }
     table, th, td {
@@ -18,6 +17,26 @@
         text-align: left;
     }
 
+    .column {
+        float: none;
+        padding: 10px;
+    }
+
+    .colum.side {
+        width: 25%;
+    }
+    .column.middle {
+        width: 50px;
+    }
+
+    .column {
+    margin: 0 10px; /* Add spacing between hobby items */
+    display: inline-block; /* Display items inline */
+    flex-direction: row; /* Align items horizontally */
+    width: 33.33%;
+    padding: 15px;
+    }
+
 </style>
 </head>
 <body>
@@ -28,7 +47,7 @@
     <tr>
         <td>Name</td>
         <td colspan="2">Muhammad Aizuddin bin Zulkifli</td>
-        <td rowspan="3"><img src="deng.jpg" alt="Your Profile Picture" width="150" height="150"></td>
+        <td rowspan="4"><img src="deng.jpg" alt="Your Profile Picture" width="150" height="150"></td>
     </tr>
     <tr>
         <td>Date of Birth</td>
@@ -49,11 +68,11 @@
     </tr>
     <tr>
         <td>Social Media</td>
-        <td>@xjuden</td>
+        <td colspan ="2">@xjuden</td>
     </tr>
     <tr>
         <td>Website</td>
-        <td>www.github.com/aizuddinzulkifli</td>
+        <td colspan ="2">www.github.com/aizuddinzulkifli</td>
     </tr>
 
     <tr>
@@ -63,37 +82,50 @@
     </tr>
     <tr>
         <td>Town</td>
-        <td>Kajang</td>
+        <td colspan ="2">Kajang</td>
     </tr>
     <tr>
         <td>District</td>
-        <td>Hulu Langat</td>
+        <td colspan ="2">Hulu Langat</td>
     </tr>
     <tr>
         <td>State</td>
-        <td>Selangor</td>    
+        <td colspan ="2">Selangor</td>    
     </tr>
 
     <tr>
         <td>Course and Registration</td>
-        <td colspan ="2">BIP UTHM</td>
+        <td colspan ="3">BIP UTHM</td>
     </tr>
     <tr>
         <td>Programming Skills</td>
-        <td colspan ="2">C, Java, HTML</td>
+        <td colspan ="3">C, Java, HTML</td>
     </tr>
     <tr>
         <td>Personal Interest</td>
-        <td colspan ="2">Into analog things such as film camera and vinyl player</td>    
+        <td colspan ="3">Into analog things such as film camera and vinyl player</td>    
     </tr>
     <tr>
         <td>Future plan in 2024</td>
-        <td colspan ="2">Jaga Solat</td>
+        <td colspan ="3">Jaga Solat</td>
     </tr>
 
 </table>
+<div class="Hobbies"></div>
+    <h2>Hobbies</h2>
+    <div class="column">
+        <span>Collectin stamp</span>
+      </div>
+      <div class="column">
+        <span>Writing</span>
+      </div>
+      <div class="column">
+        <span>Traveling</span>
+      </div>
 
-<h2>Hobbies</h2>
+
+<div class="Campus Life">
+    <h2>Campus Life</h2>
 
 </body>
 </html>
