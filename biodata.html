@@ -12,6 +12,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+    th,td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
 
 </style>
 </head>
@@ -22,8 +27,8 @@
 <table>
     <tr>
         <td>Name</td>
-        <td>Muhammad Aizuddin bin Zulkifli</td>
-        <td><img src="deng.jpg" alt="Your Profile Picture" width="100" height="100"></td>
+        <td colspan="2">Muhammad Aizuddin bin Zulkifli</td>
+        <td rowspan="3"><img src="deng.jpg" alt="Your Profile Picture" width="150" height="150"></td>
     </tr>
     <tr>
         <td>Date of Birth</td>
@@ -39,7 +44,8 @@
     </tr>
     <tr>
         <td rowspan ="3">Contact</td>
-        <td>Mobile Phone</td><td colspan ="2">01123010859</td>
+        <td>Mobile Phone</td>
+        <td colspan ="2">01123010859</td>
     </tr>
     <tr>
         <td>Social Media</td>
@@ -52,7 +58,8 @@
 
     <tr>
         <td rowspan ="4">Adress</td>
-        <td>Street</td><td colspan ="2">Jalan Omega</td>
+        <td>Street</td>
+        <td colspan ="2">Jalan Omega</td>
     </tr>
     <tr>
         <td>Town</td>
@@ -85,5 +92,8 @@
     </tr>
 
 </table>
+
+<h2>Hobbies</h2>
+
 </body>
 </html>
