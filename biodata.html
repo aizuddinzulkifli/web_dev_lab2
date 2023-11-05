@@ -6,9 +6,13 @@
         text-align: center;
         padding: 20px;
         color: #333;
+        font-size: 24px;
+        padding-bottom: 10px;
     }
     table {
+        width:100%;
         border : 1px solid black;
+        border-collapse: collapse;
         margin: 0 auto;
     }
     th,td {
@@ -17,30 +21,49 @@
         text-align: left;
     }
 
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
     .section {
         background-color: #f5f5f5;
         padding: 20px;
         margin: 20px 0;
-        border-radius: 10px;  
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .hobbies, .campus-life{
         font-size: 18px;
         color: #333;
+        margin: 0;
     }
 
     .bullet {
-        margin-right: 10px;
         color: #333;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .hobbies-list, .campus-life-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .hobbies-list li, .campus-life-list li {
+        margin: 10px 0;
     }
 
     .column {
         display: inline-block;
         padding: 10px;
-        width: 30;
+        width: 30%;
         background-color: #f2f2f2;
-        margin: 10px;
+        margin: 45px;
         border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     }
 
     .column span {
@@ -55,105 +78,107 @@
         #campus-life h3 {
             font-size: 24px;
             color: #333;
-            border-bottom: 2px solid #333;
             padding-bottom: 10px;
+            text-align: center;
         }
 
 </style>
 </head>
 <body>
 
-    <h2>Aizuddin's Biodata</h2>
+    <h2>Aizuddin Zulkifli</h2>
+    <div class="container">
+        <div class="section">
+        <h2>Biodata</h2>
+        <table>
+        <tr>
+            <td>Name</td>
+            <td colspan="2">Muhammad Aizuddin bin Zulkifli</td>
+            <td rowspan="4"><img src="deng.jpg" alt="Your Profile Picture" width="150" height="150"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td colspan ="2"> 12 February 2000</td>
+        </tr>
+        <tr>
+            <td>Religion</td>
+            <td colspan ="2">Islam</td>
+        </tr>
+        <tr>
+            <td>Race</td>
+            <td colspan ="2">Malay</td>
+        </tr>
+        <tr>
+            <td rowspan ="3">Contact</td>
+            <td>Mobile Phone</td>
+            <td colspan ="2">01123010859</td>
+        </tr>
+        <tr>
+            <td>Social Media</td>
+            <td colspan ="2">@xjuden</td>
+        </tr>
+        <tr>
+            <td>Website</td>
+            <td colspan ="2">www.github.com/aizuddinzulkifli</td>
+        </tr>
 
-<table>
-    <tr>
-        <td>Name</td>
-        <td colspan="2">Muhammad Aizuddin bin Zulkifli</td>
-        <td rowspan="4"><img src="deng.jpg" alt="Your Profile Picture" width="150" height="150"></td>
-    </tr>
-    <tr>
-        <td>Date of Birth</td>
-        <td colspan ="2"> 12 February 2000</td>
-    </tr>
-    <tr>
-        <td>Religion</td>
-        <td colspan ="2">Islam</td>
-    </tr>
-    <tr>
-        <td>Race</td>
-        <td colspan ="2">Malay</td>
-    </tr>
-    <tr>
-        <td rowspan ="3">Contact</td>
-        <td>Mobile Phone</td>
-        <td colspan ="2">01123010859</td>
-    </tr>
-    <tr>
-        <td>Social Media</td>
-        <td colspan ="2">@xjuden</td>
-    </tr>
-    <tr>
-        <td>Website</td>
-        <td colspan ="2">www.github.com/aizuddinzulkifli</td>
-    </tr>
+        <tr>
+            <td rowspan ="4">Adress</td>
+            <td>Street</td>
+            <td colspan ="2">Jalan Omega</td>
+        </tr>
+        <tr>
+            <td>Town</td>
+            <td colspan ="2">Kajang</td>
+        </tr>
+        <tr>
+            <td>District</td>
+            <td colspan ="2">Hulu Langat</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td colspan ="2">Selangor</td>    
+        </tr>
 
-    <tr>
-        <td rowspan ="4">Adress</td>
-        <td>Street</td>
-        <td colspan ="2">Jalan Omega</td>
-    </tr>
-    <tr>
-        <td>Town</td>
-        <td colspan ="2">Kajang</td>
-    </tr>
-    <tr>
-        <td>District</td>
-        <td colspan ="2">Hulu Langat</td>
-    </tr>
-    <tr>
-        <td>State</td>
-        <td colspan ="2">Selangor</td>    
-    </tr>
+        <tr>
+            <td>Course and Registration</td>
+            <td colspan ="3">BIP UTHM</td>
+        </tr>
+        <tr>
+            <td>Programming Skills</td>
+            <td colspan ="3">C, Java, HTML</td>
+        </tr>
+        <tr>
+            <td>Personal Interest</td>
+            <td colspan ="3">Into analog things such as film camera and vinyl player</td>    
+        </tr>
+        <tr>
+            <td>Future plan in 2024</td>
+            <td colspan ="3">Jaga Solat</td>
+        </tr>
 
-    <tr>
-        <td>Course and Registration</td>
-        <td colspan ="3">BIP UTHM</td>
-    </tr>
-    <tr>
-        <td>Programming Skills</td>
-        <td colspan ="3">C, Java, HTML</td>
-    </tr>
-    <tr>
-        <td>Personal Interest</td>
-        <td colspan ="3">Into analog things such as film camera and vinyl player</td>    
-    </tr>
-    <tr>
-        <td>Future plan in 2024</td>
-        <td colspan ="3">Jaga Solat</td>
-    </tr>
+        </table>
+        </div>
 
-</table>
-<div class="section hobbies"></div>
-    <h2>Hobbies</h2>
-    <div class="column">
-        <span>Collectin stamp</span>
-      </div>
-      <div class="column">
-        <span>Writing</span>
-      </div>
-      <div class="column">
-        <span>Traveling</span>
-      </div>
-</div>
+        <div class="section hobbies">
+        <h2>Hobbies</h2>
+        <ul class="hobbies-list">
+            <li><span class="bullet">&#8226;</span> Collecting Stamps</li>
+            <li><span class="bullet">&#8226;</span> Writing</li>
+            <li><span class="bullet">&#8226;</span> Traveling</li>
+        </ul>
+        </div>
 
-<div class="section campus-life">
-    <h2>Campus Life</h2>
+        <div class="section campus-life">
+        <h2>Campus Life</h2>
+        <div id="campus-life">
+        <ul class="campus-life-list">
 
-    <div id="campus-life">
-        <h3>Campus Life</h3>
-        <p>UTHM Hebat</p>
-        <p>UTHM Memang Hebat.</p>
-      </div>
+
+        </ul>
+        
+        </div>
+        </div>
 </div>
 
 </body>
