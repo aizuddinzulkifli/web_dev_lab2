@@ -261,12 +261,13 @@
     </div>
 
     <script>
-        function startAudio() {
-            const audio = document.getElementById("background-audio");
-            audio.play();
-            const playButton = document.querySelector(".play-button");
-            playButton.style.display = "none";
-        }
+        document.addEventListener("DOMContentLoaded", function() {
+    const audio = document.getElementById("background-audio");
+    audio.play();
+    const playButton = document.querySelector(".play-button");
+    playButton.style.display = "none";
+    });
+
     </script>
 </body>
 </html>
