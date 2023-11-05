@@ -251,21 +251,18 @@
         </video>
     </div>
 
-    <audio ida="background-audio" loop>
+    <audio id="background-audio" loop>
         <source src="ptsr.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
-    <div class="play-button" onclick="startAudio()">
-        <span>&#9658;</span> Play
-    </div>
+  
 
     <script>
         function startAudio() {
             const audio = document.getElementById("background-audio");
             audio.play();
-            const playButton = document.querySelector(".play-button");
-            playButton.style.display = "none";
+            
         }
     </script>
 </body>
